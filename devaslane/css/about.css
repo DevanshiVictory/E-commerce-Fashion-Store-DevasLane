@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fff;
+}
+
+/* HERO */
+.about-hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(to right, #2b1a0e, #000);
+  color: #fff;
+}
+
+.about-hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+}
+
+.about-hero p {
+  margin-top: 10px;
+}
+
+/* CONTENT */
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 70px;
+}
+
+.about-text {
+  width: 50%;
+}
+
+.about-text h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.about-image {
+  width: 50%;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* MISSION */
+.mission {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px;
+  background: #f9f9f9;
+}
+
+.mission-box {
+  width: 300px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+.mission-box h3 {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 10px;
+}
+
+/* VALUES */
+.values {
+  text-align: center;
+  padding: 60px;
+}
+
+.values h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.value-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+}
+
+.value-card {
+  background: #2b1a0e;
+  color: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  font-weight: 500;
+}
